@@ -1,0 +1,197 @@
+
+/* 右侧悬浮窗 */
+
+
+
+   /* .float_tool_bar {
+        width: 72px;
+        position: fixed;
+        z-index: 2000;
+        right: -21px;
+        bottom: 30%;
+        transform: translateX(-50%);
+        background: #FFFFFF;
+        box-shadow: 0 1px 7px 0 rgba(0,0,0,0.15);
+        border-radius: 6px;
+    
+    } */
+
+@media(min-width: 1000px){
+    .float_tool_bar {
+        width: 72px;
+        position: fixed;
+        z-index: 2000;
+        right: -21px;
+        bottom: 30%;
+        transform: translateX(-50%);
+        background: #FFFFFF;
+        box-shadow: 0 1px 7px 0 rgba(0,0,0,0.15);
+        border-radius: 6px;
+    }
+
+    .float_tool_bar .item .over {
+        display: block;
+        overflow: hidden;
+        width: 68px;
+        height: 65px;
+        padding: 8px 0;
+    }
+
+    .float_tool_bar .item .icon .iconfont{
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    .float_tool_bar .item {
+        position: relative;
+        display: block;
+        cursor: pointer;
+        color: #207DFF;
+        text-align: center;
+        font-size: 12px;
+        background-color: #fff;
+        width: 100%;
+        height: 66px;
+    
+    }
+
+    .float_tool_bar .item .detail {
+        font-size: 16px;
+        line-height: 2.5rem;
+        position: absolute;
+        top: 0;
+        right: 80px;
+        display: none;
+        background: #fff;
+        min-width: 160px;
+        box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+        border-radius: 2px;
+        padding: 12px;
+        font-size: 14px;
+        text-align: left;
+        color: #333;
+    }
+
+    .float_tool_bar .item .detail.detail-weixin>img{
+        height: 147px;
+        width: 147px;
+    }
+}
+
+@media (max-width:600px){
+    .float_tool_bar {
+        width: 55px;
+        position: fixed;
+        z-index: 2000;
+        right: -20px;
+        bottom: 10px;
+        transform: translateX(-50%);
+        background: #FFFFFF;
+        box-shadow: 0 1px 7px 0 rgba(0,0,0,0.15);
+        border-radius: 6px;
+    }
+
+    .float_tool_bar .item .over {
+        display: block;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        padding: 8px 0;
+    }
+
+    .float_tool_bar .item .icon .iconfont{
+        font-size: 16px;
+        /* margin-bottom: 5px; */
+    } 
+
+    .float_tool_bar .item {
+        position: relative;
+        display: block;
+        cursor: pointer;
+        color: #207DFF;
+        text-align: center;
+        font-size: 12px;
+        background-color: #fff;
+        width: 100%;
+        height: 50px;
+    
+    }
+
+    .float_tool_bar .item .detail {
+        font-size: 16px;
+        line-height: 1rem;
+        position: absolute;
+        top: -30px;
+        right: 60px;
+        display: none;
+        background: #fff;
+        min-width: 60px;
+        max-height: 130px;
+        box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+        border-radius: 2px;
+        padding: 6px;
+        font-size: 12px;
+        text-align: left;
+        color: #333;
+        
+    }
+
+    .float_tool_bar .item .detail.detail-weixin>img{
+        height: 70px;
+        width: 70px;
+        margin-bottom: 2px;
+    }
+} 
+
+.float_tool_bar .item:hover{
+    background: #207DFF;
+    color:#fff;
+}
+.float_tool_bar .item:first-child{
+    border-radius: 6px 6px 0 0;
+}
+.float_tool_bar .item:last-child{
+    border-radius: 0 0 6px 6px;
+}
+.float_tool_bar .item.defaults {
+    background: #2268F0;
+    color: #fff;
+    border-color: #2268F0;
+}
+
+
+.float_tool_bar .item .icon {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: .1s ease;
+    transition: .1s ease
+}
+
+
+
+.float_tool_bar .item:hover .detail {
+    display: block
+}
+
+
+
+
+.float_tool_bar .item .detail .sub-font {
+    font-size: 14px;
+    color: #666;
+}
+
+.float_tool_bar .item .detail.detail-phone {
+    width: 268px;
+
+
+}
+
+
+.float_tool_bar .item .detail.detail-weixin {
+
+}
+
+.float_tool_bar .item .detail.detail-weixin .weixin-txt {
+
+}

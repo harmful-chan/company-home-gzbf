@@ -1,0 +1,192 @@
+{
+    "lang":"中 文",
+
+
+    "entrance":"入口",
+    "products_services":"产品&服务",
+    "solution":"解决方案",
+    "lourqcom":"对接渠道",
+    "pricing":"产品定价",
+    "news":"新闻动态",
+
+
+    "slogan":"供应联盟 一触即发 <br> 开店 / 培训 / 选品 / 上品 / 物流 <br> 用简单轻松的方式 助力您的生意贸易全球",
+    "login":"登录 EPR",
+
+
+    "section_services":"产品&服务",
+    "wecando":"我们能为您做什么？",
+    "section_services_slogan":"一站式跨境服务，跨境买卖变得更轻松",
+
+    "store_occupancy":"店铺入驻",
+    "desc_store_occupancy":"50+电商平台, 10+新兴平台 <br> 入驻寰球易贸，享受快速下店服务",
+
+    "training_course":"课程培训",
+    "desc_training_course":"优质线上线下电商培训课程 <br> 助力学员生意快速出海",
+
+    "Big_data_selection":"大数据选品",
+    "desc_Big_data_selection":"1000万+爆品库，Listing优化、竞品分析 <br> 驱动卖家科学选品、精细化运营",
+
+    "desc_erp":"国内直发、美国、英国、欧洲海外仓 <br> 1000万+ SKU现货现销",
+    "scm":"优选供应链",
+    "desc_scm":"国内直发、美国、英国、欧洲海外仓<br>1000万+ SKU现货现销",
+
+    "overseas_cloud_warehouse":"海外云仓",
+    "desc_overseas_cloud_warehouse":"对接国内外优质中转仓、海外仓 <br> 解决打包、发货、海外退货等多项服务",
+
+
+    "section_solution":"解决方案",
+    "section_solution_slogan":"总有一种方案能满足您",
+    "section_solution_slogan_2":"寰球易贸将完全基于您的业务逻辑，为您量身制定最适合您的解决方案",
+
+    "novice_seller":"跨境新手卖家",
+    "desc_novice_seller":"平台运营1V1赋能 <br> 一件代打包代发货",
+
+    "industrial_zone":"产业带转型卖家",
+    "desc_industrial_zone":"蓝海平台快速入驻<br> 海外仓官方仓服务",
+
+    "old_platform":"老平台转型卖家",
+    "desc_old_platform":"大数据选品 <br> 产品搬家",
+
+    "multi_platform":"多平台发展卖家",
+    "desc_multi_platform":"多店铺经营 <br> 海外仓官方仓服务",
+
+    "resident_merchant":"入驻商家",
+    "open_store":"开通店铺",
+    "signing_success":"签约成功",
+    "platform_shipping":"平台发货",
+
+    "all":"全部",
+    "Cross_border_novice":"跨境新手",
+    "industry_belt":"产业带转型",
+    "old_platform_2":"老平台转型",
+    "platform_shipping_2":"多平台发展",
+
+    "vc-title-1":"学生/宝妈/个体户/待业 ",
+    "content-title":"场景",
+    "left-box-desc-1":"<p>无服务商资源</p><p>不熟悉平台玩法</p><p>无货源渠道</p><p>不能承受压货风险</p>",
+    "content-title-2":"解决方案",
+    "right-box-desc-1":"<p>一件代打包代发货</p><p>蓝海平台快速入驻</p><p>平台运营1V1赋能</p><p>大数据选品</p><p>货源及采购渠道</p>",
+
+    "vc-title-2":"工厂老板/供应链老炮",
+    "left-box-desc-2":"<p>探寻新的商机</p><p>拓展海外市场</p><p>打造运营团队</p><p>建立国际品牌</p>",
+    "right-box-desc-2":"<p>蓝海平台快速入驻</p><p>平台运营1V1赋能</p><p>跨境ERP软件</p><p>知识产权商标注册</p><p>海外仓官方仓服务</p>",
+
+    "vc-title-3":"传统外贸/老平台外贸玩家",
+    "left-box-desc-3":"<p>老平台过度内卷，利润不及预期</p><p>快速抢占新市场新平台红利</p><p>产品能够无缝迁移到新平台</p><p>运营人才与业务模式快速转型</p>",
+    "right-box-desc-3":"<p>蓝海平台快速入驻</p><p>平台运营1V1赋能</p><p>产品搬家</p><p>大数据选品</p><p>一件代打包代发货</p>",
+
+    "vc-title-4":"多平台多渠道布局卖家",
+    "left-box-desc-4":"<p>寻找第二增长曲线</p><p>分散单平台风险</p><p>提升库存、资金周转</p><p>训练新人，挖掘人才</p>",
+    "right-box-desc-4":"<p>蓝海平台快速入驻</p><p>平台运营1V1赋能</p><p>产品搬家</p><p>多店铺经营</p><p>海外仓官方仓服务</p>",
+
+    "Matching-channels":"对接渠道",
+    "Matching-channels-desc":"与众多主流新兴卖家平台、货源平台及物流平台实现对接",
+
+
+    "hollow-text":"客户心声",
+    "customer-name-1":"店铺入驻",
+    "testimonial-text-1":"今年TikTok电商十分火爆，我们团队想入驻TikTok东南亚好久了，但是一直拿不到TikTok邀请码。通过<span style='color: red; font-weight: 500;'>寰球易贸</span>的渠道入驻，没想到2天就下店了，代入驻的经理全程跟进，TikTok Shop下来后还有1对1运营指导，专业靠谱。",
+
+    "customer-name-2":"课程培训",
+    "testimonial-text-2":"今年6月份开通了TikTok跨境店，TikTok无货源模式的风一直很大，但是我们团队都是新手小白，既没有货源也不懂物流发货。<span style='color: red; font-weight: 500;'>寰球易贸</span>的TikTok陪跑课程的周期长达6个月，课程体系也十分完善，覆盖了TikTok养号、TikTok涨粉、TikTok直播带货、TikTok促销与广告等方方面面，十分契合TikTok新手卖家的成长路径，最快半个月就开始盈利了。",
+
+    "customer-name-3":"大数据选品",
+    "testimonial-text-3":"俗话说七分靠选品，三分靠运营。寰球易贸庞大的产品数据，覆盖了coupang所有细分品类，品类数据周更新，1个月帮我开发了5款产品。根据极客针对热销榜单、历史榜单的详细产品分析数据，1个月内打造爆款3+，选品精度<span style='color: red; font-weight: 500;'>提高82%</span>，实现<span style='color: red; font-weight: 500;'>订单暴涨600%。</span>",
+
+    "customer-name-4":"寰球ERP",
+    "testimonial-text-4":"我是做TikTok店群模式的，使用了寰球易贸ERP以后，团队成员精简了6人，铺货<span style='color: red; font-weight: 500;'>效率提升了80%以上</span>，<span style='color: red; font-weight: 500;'>日订单量突破400单。 </span>",
+
+
+    "upgrade_package":"可随时升级套餐",
+    "free_version":"免费版",
+    "free_text1":"优质店铺运营课程",
+    "free_text2":"1000万+爆款选品",
+    "free_text3":"店铺绑定(¥30/店铺/月)",
+    "free_text4":"数据采集(¥0.08/条)",
+    "register":"立即注册",
+
+    "personal_edition":"个人版",
+    "personal_text1":"优质店铺运营课程",
+    "personal_text2":"1000万+爆款选品",
+    "personal_text3":"店铺绑定(单平台无限制)",
+    "personal_text4":"数据采集无限制",
+
+    "enterprise_edition":"企业版",
+    "enterprise_text1":"优质店铺运营课程",
+    "enterprise_text2":"1000万+爆款选品",
+    "enterprise_text3":"店铺绑定无限制",
+    "enterprise_text4":"数据采集无限制",
+
+    "customized_edition":"定制版",
+    "customized_text":" 根据需求定制功能",
+
+    "desc_news":"荟萃行业精华资讯、业界大咖干货、重要活动预告",
+    "post_date1":"<span class='day'>2023年 </span>10月 05日 </span>",
+    "post_title1":"了解tiktok查重机制、如何避免查重、提高视频播放量 ",
+    "post_excerpt1":"通过国内短视频上面搬运视频到TikTok，但是肯定会遇到发布视频后没有效果。那时因为tiktok的查重机制被判重复了，那我们要如何搬运这些视频，并且通过...",
+
+    "post_title2":"超详细！TikTok东南亚入驻，TikTok邀请码获取途径！",
+    "post_excerpt2":"2022年上半年，TikTok Shop陆续上线了泰国、越南、马来西亚 、菲律宾、新加坡5国的本土业务与跨境业务，强势布局东南亚电商市场。不过，想要在开通...",
+
+    "post_title3":"收藏！海外版抖音，TikTok安卓版安装教程",
+    "post_excerpt3":"海外版抖音TikTok如火如荼，很多卖家跃跃欲试。前段时间，寰球易贸专门分享了TikTok苹果版的安装教程，引起了...",
+
+
+    "france":"法国",
+    "peccoeur":"佩克库尔",
+
+    "UK":"英国",
+    "liverpool":"利物浦",
+
+    "Japan":"日本",
+    "kusaka_city":"草加市",
+
+    "spain":"西班牙",
+    "chippiona":"奇皮奥纳",
+
+    "russia":"俄罗斯",
+    "moscow":"莫斯科",
+
+    "brazil":"巴西",
+    "são_paulo":"圣保罗",
+
+    "US":"美国",
+    "arkansas":"阿肯色州",
+
+    "korea":"韩国",
+    "seoul":"首尔",
+
+    "china":"中国",
+    "guangdong":"广东",
+    "address":"广州市  广州大道 北白灰场路1号 京隆大厦7楼",
+
+    "footer_title":"| 用简单轻松的方式 助力您的生意贸易全球",
+    "product_introduction":"产品介绍",
+
+    "quick_entry":"快速入口",
+    "open_a_store":"我要开店",
+    "post_to_shelves":"刊登上架",
+    "cloud_warehouse_services":"云仓服务",
+
+    "about_us":"关于我们",
+    "get_help":"获取帮助",
+    "outstanding_cases":"优秀案例",
+    "company_overview":"公司概述",
+
+    "domestic_contact":"国内联系方式",
+    "address2":"广州市广州大道北白灰场路1号京隆大厦7楼",
+
+
+    "pre_sales_consultation":"售前咨询",
+    "public_number":"公众号",
+    "desc_public_number":"扫码关注公众号领取平台运营干货",
+    "weChat_group":"微信群",
+    "desc_weChat_group":"扫码进入卖家交流群",
+    "back_to_top":"回到顶部",
+    "put_away":"收起"
+
+
+
+
+}

@@ -1,0 +1,106 @@
+.language {
+	position: relative;
+    right: 10%;
+	width: 4.5rem;
+	height: 2.25rem;
+	border-radius: 0.3rem;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out 0s;
+    border: 1px solid #000;
+    line-height: 2.25rem;
+    text-align: center;
+	font-weight: 600;
+    background-color: transparent;
+}
+
+.is-sticky.header-basic .language {
+	color: var(--clr-white);
+	border: 1px solid #fff;
+}
+
+body.dark-theme .language{
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+/* .background_color {
+    background-color: #f2f4fc;
+} */
+
+
+.is-sticky.header-basic .selectize-input{
+    color: var(--clr-white);
+}
+
+.language-area {
+    position: relative;
+    right: 7%;
+    top: 15px;
+    height: 36px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.selectize-dropdown.flag {
+    padding-left: 0.7rem;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+
+.flag div[data-value=english],.flag div[data-value=china] {
+    font-size: 1rem;
+    font-weight: 600;
+    background-repeat: no-repeat;
+    text-indent: 28px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.selectize-control.single .selectize-input:after {
+    right: 3px;
+    border-color: #fff transparent transparent transparent;
+}
+
+.selectize-control.single .selectize-input.input-active:after {
+    border-color: transparent transparent #808080 transparent;
+}
+
+.flag {
+    width: 105px;
+}
+
+.flag div[data-value=english] {
+    background-image: url(/static/mypicture/usa.svg);
+}
+
+.flag div[data-value=china] {
+    background-image: url(/static/mypicture/china.svg);
+    background-size: 25px 25px;
+}
+
+
+.flag .selectize-input {
+    border: none;
+    box-shadow: none;
+    padding-left: 0.7rem;
+    padding-right: 0;
+}
+
+.flag .selectize-dropdown [data-selectable].option {
+    opacity: 1;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.flag .selectize-dropdown .option {
+    padding: 0 0.3rem 0 0;
+    margin: 0.125rem 0;
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.selectize-input.full {
+    background-color: transparent;
+}

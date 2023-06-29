@@ -1,0 +1,171 @@
+.common-white-paper{
+    top: 0px !important;
+    left: unset !important;
+    right: 112px !important;
+    bottom: 0 !important;
+    margin: auto!important;
+    box-shadow: 0 0 14px rgba(0,0,0,.1) !important;
+}
+.common-white-paper .white-paper-content{
+    width: 100%;
+    height: 100%;
+
+
+}
+.common-white-paper .white-paper-content #white-paper-from{
+    padding: 0 20px;
+}
+.common-white-paper .white-paper-content .title{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 90px;
+    color: #000;
+    text-align: center;
+}
+.common-white-paper .white-paper-content .vc-title{
+    font-size: 16px;
+    font-weight: 400;
+    color: #767c8b;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.common-white-paper .white-paper-content .min-title{
+
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+    background: rgba(244, 247, 254, 1);
+    line-height: 40px;
+    padding: 0 20px;
+}
+.common-white-paper .white-paper-content .min-title a{
+    padding-left: 22px;
+    position: relative;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 24px;
+}
+.common-white-paper .white-paper-content .min-title .common-appointment-left-nav:before{
+   position: absolute;
+   content: '';
+    top: 5px;
+    left: 0px;
+    right: 64px;
+    margin: auto;
+   width: 22px;
+   height: 15px;
+   background: url("../images/ec_1643268436.png") no-repeat center;
+   background-size: 100%;
+}
+.common-white-paper .white-paper-content .min-title .common-appointment-right-nav:before{
+    position: absolute;
+    content:'';
+    top: 5px;
+    left: 0px;
+    right: 64px;
+    margin: auto;
+    width: 22px;
+    height: 15px;
+    background: url("../images/ec_1643268540.png") no-repeat center;
+    background-size: 100%;
+}
+.common-white-paper .white-paper-content .min-title .active{
+    color:rgba(36, 104, 242, 1);
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+.common-white-paper .white-paper-content .min-title .active.common-appointment-left-nav:before{
+    background: url("../images/ec_1643268417.png") no-repeat center;
+
+}
+.common-white-paper .white-paper-content .min-title .active.common-appointment-right-nav:before{
+    background: url("../images/ec_1643268536.png") no-repeat center;
+
+}
+
+.common-white-paper .white-paper-content .layui-form-label {
+    padding: unset;
+    text-align: right;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #606266;
+    box-sizing: border-box;
+    margin: 0;
+    line-height: 40px;
+}
+.common-white-paper .white-paper-content .layui-form-label samp{
+    color: red;
+    margin-right:5px;
+    height: 14px;
+}
+.common-white-paper .layui-input{
+    height: 40px;
+}
+.common-white-paper .white-paper-content .layui-input-block{
+    min-height: 40px;
+    margin-left: 95px;
+}
+.common-white-paper .white-paper-content .layui-form-item{
+    width: 48%;
+    margin-bottom: 18px;
+}
+
+.common-white-paper .white-paper-content .white-paper-save-btn{
+    margin-top: 10px;
+    width: 50%;
+    background: #2a7de1;
+    font-size: 16px;
+}
+.common-white-paper .layui-form-checkbox[lay-skin=primary]:hover i {
+    border-color: #2a7de1;
+
+}
+.common-white-paper .layui-form-checkbox[lay-skin=primary] i{
+    top: -5px;
+    margin-right: 10px;
+}
+.common-white-paper .layui-form-checked[lay-skin=primary] i{
+
+    border-color: #2a7de1;
+    background-color: #2a7de1;
+}
+.common-white-paper .layui-form-checkbox[lay-skin=primary] span{
+    position: relative;
+    top: -8px;
+    left: -10px;
+}
+.common-white-paper .layui-layer-setwin .layui-layer-close2 {
+    right: 0px;
+    top: 0px;
+    width: 25px;
+    height: 25px;
+    margin-left: 0;
+    background-position: unset;
+}
+.common-white-paper .layui-layer-ico {
+    background: url(../images/ec_1621574190.png) no-repeat;
+    background-size: 100%;
+    opacity: 0.25;
+}
+.common-white-paper .layui-layer-setwin .layui-layer-close2:hover{
+    background-position:unset;
+}
+.layui-layer-shade.common-appointmentlayer-shade {
+    /*background-color: rgba(0,0,0,0) !important;*/
+    /*width: 600px !important;*/
+    /*height: 600px !important;*/
+    /*right: 0;*/
+    /*left: unset;*/
+    /*top: 0;*/
+    /*bottom: 0;*/
+    /*margin: auto;*/
+}
+
+.common-white-paper #imgCommonCode{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.common-white-paper .layui-form-select dl dd, .layui-form-select dl dt{
+  line-height: 25px;
+}
