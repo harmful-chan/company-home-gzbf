@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Selectize.js Example</title>
+  <link rel="stylesheet" type="text/css" href="/static/mycss/selectize.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/static/myjs/selectize.js"></script>
+</head>
+<body>
+  <div id="select-container">
+    <select class="flag">
+      <option value="china" selected="">中文</option>
+      <option value="english">English</option>
+    </select>
+  </div>
+
+  <script>
+    $(document).ready(function() {
+      var selectize =  $('select').selectize({
+        multiple: false,
+        allowClear: true,
+        maxOptions: 10,
+        placeholder: '请选择',
+        dropdownParent: '#select-container',
+        create: false,
+        onDelete: function (values) {
+            // 阻止删除操作
+            return false;
+        },
+        onInitialize: function () {
+          this.$control_input.prop("readonly", "readonly");
+          this.$control_input.prop('disabled', true);
+        },
+        onMouseDown: function(e){
+          e.preventDefault();
+        }
+
+      })[0].selectize;
+
+      // 添加选项
+      selectize.addOption({ value: '1', text: '选项1' });
+      selectize.addOption({ value: '2', text: '选项2' });
+      selectize.addOption({ value: '3', text: '选项3' });
+      // 添加更多选项...
+    });
+  </script>
+</body>
+</html>
